@@ -305,7 +305,7 @@ enum v4l2_mpeg_mfc51_video_frame_type {
 #define V4L2_CID_MPEG_VIDEO_VP8_HIERARCHICAL_CODING_LAYER_BIT2	\
 					(V4L2_CID_MPEG_MFC_BASE + 82)
 
-#######mine#############
+//---------------mine----------------------------
 #define V4L2_PIX_FMT_RGB32X v4l2_fourcc('R', 'G', 'B', 'X')
 #define V4L2_PIX_FMT_YUV444_2P v4l2_fourcc('Y', 'U', '2', 'P')
 /* WARNING: DO NOT EDIT, AUTO-GENERATED CODE - SEE TOP FOR INSTRUCTIONS */
@@ -567,7 +567,7 @@ enum v4l2_mpeg_video_hevc_hierarchical_coding_type {
 #define V4L2_CID_MPEG_VIDEO_H264_MIN_QP_B (V4L2_CID_MPEG_MFC_BASE + 216)
 #define V4L2_CID_MPEG_VIDEO_HEVC_MIN_QP_B (V4L2_CID_MPEG_MFC_BASE + 217)
 #define V4L2_CID_MPEG_VIDEO_MPEG4_MIN_QP_B (V4L2_CID_MPEG_MFC_BASE + 218)
-##mine
+//mine
 
 #define V4L2_CID_MPEG_MFC_GET_VERSION_INFO			\
 					(V4L2_CID_MPEG_MFC_BASE + 91)
