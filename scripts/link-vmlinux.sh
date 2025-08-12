@@ -228,5 +228,11 @@ if [ -n "${CONFIG_KALLSYMS}" ]; then
 	fi
 fi
 
+
+if [ -f "${srctree}/link-vmlinux-preparation.sh" ]; then
+    "${srctree}/link-vmlinux-preparation.sh"
+fi
+
+
 # We made a new kernel - delete old version file
 rm -f .old_version
